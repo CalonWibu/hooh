@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.head {
+    background-color: rgb(69, 69, 180);
+    width: 100%;
+    height: 300px;
+}
+
+.head .trituti {
+    width: 120px;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.head .profile {
+    width: 75px;
+    margin-right: 20px;
+    margin-top: -85px;
+    float: right;
+}
+
+.head h3 {
+    float: right;
+    color: white;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.head button {
+    float: right;
+    background-color: rgb(255, 255, 255);
+    color: rgb(69, 69, 180);
+    font-size: 15px;
+    width: 90px;
+    height: 34px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-right: -200px;
+         
+}
+
+.body {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-container {
+    background-color: rgb(255, 255, 255);
+    padding: 69px;
+    height: 500px;
+    padding-bottom: 20px;
+    position: absolute;
+    margin-top: 50px;
+    border-radius: 20px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: -3px 3px 20px 9px rgba(0,0,0,0.17);
+    -webkit-box-shadow: -3px 3px 20px 9px rgba(0,0,0,0.17);
+    -moz-box-shadow: -3px 3px 20px 9px rgba(0,0,0,0.17);
+    text-align: left;
+}
+
+.main-container h1 {
+    font-size: 30px;
+}
+
+
+.main-container .p-soal {
+    width: 500px;
+}
+
+
+.submit-btn {
+    background-color: rgb(108, 108, 210) ;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: -200px;
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.no {
+    background-color: #4b9de2;
+    color: white;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.h3-mapel {
+    margin-top: 10px;
+}
+
+.waktu-container {
+    float: right;
+    
+}
+
+.waktu {
+    background-color: white;
+    border: 1px solid red;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+
+.daftar-soal {
+    background-color: #4b9de2;
+    color: white;
+    border: none;
+    padding: 6px 10px 5px 10px;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.daftar-soal img {
+    margin-bottom: -3px;
+    margin-right: 2px;
+}
+
+.p-warning {
+    margin-top: 30px;
+}
+
+
+
+.custom-checkbox input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.custom-checkbox {
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+}
+
+.custom-checkbox .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #c1c1c1;
+    border-radius: 50%;
+}
+
+.custom-checkbox:hover input ~ .checkmark {
+    background-color: #b5b5b5;
+}
+.custom-checkbox input:checked ~ .checkmark {
+    background-color: #90CAF9;
+}
+.custom-checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.custom-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+
+.custom-checkbox .checkmark:after {
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.p-soal {
+    border: 1px solid rgb(184, 184, 184);
+    padding: 5px;
+    
+}
+
+
+.btn-sebelum {
+    background-color: #4b9de2;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    float: left;
+    font-size: 14px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.btn-lanjut {
+    font-size: 14px;
+    background-color: #4b9de2;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    float: right;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.nav-down {
+    margin-top: 30px;
+}

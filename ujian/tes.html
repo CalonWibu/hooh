@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Example</title>
+</head>
+<body>
+
+<label for="pilihan">Pilih Opsi:</label>
+<select id="pilihan" onchange="showSelected(this.value)">
+    <option value="Opsi 1">Opsi 1</option>
+    <option value="Opsi 2">Opsi 2</option>
+    <option value="Opsi 3">Opsi 3</option>
+</select>
+
+<p id="output">Opsi yang dipilih akan muncul di sini.</p>
+
+<script>
+    // Fungsi untuk menampilkan opsi yang dipilih
+    function showSelected(option) {
+        document.getElementById("output").innerHTML = "Anda memilih: " + option;
+    }
+</script>
+
+</body>
+</html>

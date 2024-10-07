@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        .dropdown {
+            display: none;
+            flex-direction: column;
+
+            background-color: rgb(253, 122, 21) ;
+        }
+    </style>
+    <button onclick="bukadropdown()">buka dropdown</button>
+    <div class="dropdown" id="dropdown">
+        <a href="#">ini 1</a>
+        <br>
+        <a href="#">ini 1</a>
+        <br>
+        <a href="#">ini 1</a>
+        <br>
+        <a href="#">ini 1</a>
+        <br>
+        <a href="#">ini 1</a>
+        <br>
+        <a href="#">ini terakhir</a>
+        <br>
+        <a href="#" onclick="tutup()">tutup</a>
+
+        <script>
+
+            let dropdown = document.getElementById("dropdown");
+
+            function bukadropdown() {
+                dropdown.style.display = "flex";
+            }
+            function tutup() {
+                dropdown.style.display = "none";
+            }
+        </script>
+    </div>
+</body>
+</html>
